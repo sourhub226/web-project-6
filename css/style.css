@@ -344,6 +344,7 @@ p {
 	color: white;
 	font-size: 25px;
 	font-style: italic;
+	transition: all 0.8s ease-out;
 }
 
 /*------------------------------

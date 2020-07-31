@@ -67,8 +67,10 @@
 	}
 
 	.quote-section p {
+		transform: scale(0.75);
 		font-size: 17px;
 		text-align: center;
+
 	}
 
 	.contact-us {
