@@ -1,0 +1,87 @@
+/*------------------------------
+        Media Query
+------------------------------*/
+
+@media all and (max-width: 1450px) {
+	.container {
+		padding: 0 30px;
+	}
+}
+
+@media all and (max-width: 1200px) {
+	.centered-elements h1 {
+		font-size: 40px;
+	}
+
+	.quote-section p {
+		font-size: 20px;
+	}
+
+	.centered-buttons {
+		transform: scale(0.85);
+	}
+
+	.activities-container {
+		width: 39%;
+		margin-bottom: 50px;
+	}
+
+	.activities-container:nth-child(3),
+	.activities-container:nth-child(4) {
+		margin-bottom: 0;
+	}
+
+	.gallery-section div {
+		flex-basis: 34%;
+	}
+}
+
+@media all and (max-width: 991px) {
+	.nav-menu a {
+		margin: auto 25px;
+	}
+
+	.about-us {
+		flex-direction: column;
+	}
+
+	.about-container h2 {
+		font-size: 30px;
+		margin: 20px auto 20px auto;
+		width: 80%;
+
+	}
+
+	.about-container h2::after {
+		--text-width: 82px;
+	}
+
+	.about-container p {
+		margin: 0 auto 20px auto;
+		font-size: 16px;
+	}
+
+	.about-us img {
+		margin-right: 0;
+		margin-top: 20px;
+	}
+
+	.quote-section p {
+		font-size: 17px;
+		text-align: center;
+	}
+
+	.contact-us {
+		margin: 0;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 60%;
+	}
+
+	.gm-style-pbt {
+		top: 3%;
+		text-align: center;
+		padding-right: 0;
+	}
+
+}
