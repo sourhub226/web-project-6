@@ -1,9 +1,9 @@
-//let root = document.documentElement;
-//const forest_blue = getComputedStyle(root).getPropertyValue('--forest-blue');
-var forest_blue = "#0a3d62";
+var forest_blue = (window.getComputedStyle(document.documentElement).getPropertyValue('--forest-blue')).trim();
+
 // Load google map
 function loadScript() {
-	console.log("Map init");
+//	console.log("Map init");
+//	console.log(forest_blue);
 	$.ajax({
 		type: "GET",
 		url: "https://maps.googleapis.com/maps/api/js?key=AIzaSyDJ6apCT_bhlnBNpUJxJ5_qVr4nHdL-FkQ&callback=initMap",

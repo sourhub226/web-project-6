@@ -67,7 +67,7 @@
 	}
 
 	.quote-section p {
-		transform: scale(0.75);
+		
 		font-size: 17px;
 		text-align: center;
 
@@ -198,7 +198,9 @@
 		margin-top: 40px;
 	}
 
-
+	.quote-section p{
+	transform: scale(0.75);
+}
 	.gallery-section div {
 		flex-basis: 100%;
 	}
