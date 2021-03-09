@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 var forest_blue = (window.getComputedStyle(document.documentElement).getPropertyValue('--forest-blue')).trim();
 
 // Load google map
