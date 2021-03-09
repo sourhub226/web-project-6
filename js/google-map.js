@@ -14,8 +14,6 @@ function loadScript() {
 var map;
 
 function initMap() {
-	var latitute;
-	var longitude;
 	map = new google.maps.Map(document.getElementById('google-maps'), {
 		center: {
 			lat: 46.937161,

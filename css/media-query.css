@@ -47,7 +47,7 @@
 
 	.about-container h2 {
 		font-size: 30px;
-		margin: 20px auto 20px auto;
+		margin: 20px auto;
 		width: 80%;
 
 	}
@@ -57,7 +57,7 @@
 	}
 
 	.about-container p {
-		margin: 0 auto 20px auto;
+		margin: 0 auto 20px;
 		font-size: 16px;
 	}
 
@@ -206,7 +206,7 @@
 	}
 
 	.gallery-section {
-		padding-top: 0px;
+		padding-top: 0;
 		margin-top: 80px;
 	}
 
@@ -229,8 +229,8 @@
 
 @media all and (max-width: 362px) {
 	.about-us {
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	.contact-us {
